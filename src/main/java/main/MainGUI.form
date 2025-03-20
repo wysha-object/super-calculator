@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="main.MainGUI">
+  <grid id="27dc6" binding="contentPane" layout-manager="GridLayoutManager" row-count="4" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="787" height="723"/>
+    </constraints>
+    <properties>
+      <background color="-789517"/>
+      <foreground color="-3355444"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="e2f6a" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-789517"/>
+          <foreground color="-3355444"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="67897" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-789517"/>
+              <foreground color="-3355444"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="262ba" class="javax.swing.JTextField" binding="textField">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="32"/>
+                    <maximum-size width="-1" height="128"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-789517"/>
+                  <font name="Consolas" size="26" style="1"/>
+                  <foreground color="-16777216"/>
+                  <horizontalAlignment value="11"/>
+                </properties>
+              </component>
+              <component id="9f259" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-3092272"/>
+                  <font name="Consolas" size="26" style="1"/>
+                  <foreground color="-16777216"/>
+                  <horizontalAlignment value="10"/>
+                  <text value="0x"/>
+                </properties>
+              </component>
+              <hspacer id="d8067">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+            </children>
+          </grid>
+          <vspacer id="d706f">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="ebbd" class="javax.swing.JComboBox" binding="comboBox">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2105377"/>
+              <font name="Microsoft YaHei UI Light" size="16" style="0"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <vspacer id="30e1d">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="d8027" class="javax.swing.JButton" binding="flushButton">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5592406"/>
+              <font name="Microsoft YaHei UI Light" size="16" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="刷新"/>
+            </properties>
+          </component>
+          <grid id="d429c" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-789517"/>
+              <foreground color="-3355444"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="fb8d9" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-789517"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="a603c" class="javax.swing.JButton" binding="aButton" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="64" height="48"/>
+                        <preferred-size width="64" height="48"/>
+                        <maximum-size width="64" height="48"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3092272"/>
+                      <font name="Microsoft YaHei UI" size="36" style="1"/>
+                      <foreground color="-16777216"/>
+                      <hideActionText value="false"/>
+                      <text value="A"/>
+                    </properties>
+                  </component>
+                  <component id="5ce21" class="javax.swing.JButton" binding="bButton" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="64" height="48"/>
+                        <preferred-size width="64" height="48"/>
+                        <maximum-size width="64" height="48"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3092272"/>
+                      <font name="Microsoft YaHei UI" size="36" style="1"/>
+                      <foreground color="-16777216"/>
+                      <hideActionText value="false"/>
+                      <text value="B"/>
+                    </properties>
+                  </component>
+                  <component id="75af" class="javax.swing.JButton" binding="cButton" default-binding="true">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="64" height="48"/>
+                        <preferred-size width="64" height="48"/>
+                        <maximum-size width="64" height="48"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3092272"/>
+                      <font name="Microsoft YaHei UI" size="36" style="1"/>
+                      <foreground color="-16777216"/>
+                      <hideActionText value="false"/>
+                      <text value="C"/>
+                    </properties>
+                  </component>
+                  <component id="f7154" class="javax.swing.JButton" binding="dButton" default-binding="true">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="64" height="48"/>
+                        <preferred-size width="64" height="48"/>
+                        <maximum-size width="64" height="48"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3092272"/>
+                      <font name="Microsoft YaHei UI" size="36" style="1"/>
+                      <foreground color="-16777216"/>
+                      <hideActionText value="false"/>
+                      <text value="D"/>
+                    </properties>
+                  </component>
+                  <component id="64e79" class="javax.swing.JButton" binding="eButton" default-binding="true">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="64" height="48"/>
+                        <preferred-size width="64" height="48"/>
+                        <maximum-size width="64" height="48"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3092272"/>
+                      <font name="Microsoft YaHei UI" size="36" style="1"/>
+                      <foreground color="-16777216"/>
+                      <hideActionText value="false"/>
+                      <text value="E"/>
+                    </properties>
+                  </component>
+                  <component id="11bed" class="javax.swing.JButton" binding="fButton" default-binding="true">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="64" height="48"/>
+                        <preferred-size width="64" height="48"/>
+                        <maximum-size width="64" height="48"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3092272"/>
+                      <font name="Microsoft YaHei UI" size="36" style="1"/>
+                      <foreground color="-16777216"/>
+                      <hideActionText value="false"/>
+                      <text value="F"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="516d6" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-789517"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="33d62" class="javax.swing.JButton" binding="a7Button" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="64" height="72"/>
+                        <preferred-size width="64" height="72"/>
+                        <maximum-size width="64" height="72"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3092272"/>
+                      <font name="Microsoft YaHei UI" size="36" style="1"/>
+                      <foreground color="-16777216"/>
+                      <hideActionText value="false"/>
+                      <text value="7"/>
+                    </properties>
+                  </component>
+                  <component id="6161e" class="javax.swing.JButton" binding="a8Button" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="64" height="72"/>
+                        <preferred-size width="64" height="72"/>
+                        <maximum-size width="64" height="72"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3092272"/>
+                      <font name="Microsoft YaHei UI" size="36" style="1"/>
+                      <foreground color="-16777216"/>
+                      <hideActionText value="false"/>
+                      <text value="8"/>
+                    </properties>
+                  </component>
+                  <component id="39c43" class="javax.swing.JButton" binding="a9Button" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="64" height="72"/>
+                        <preferred-size width="64" height="72"/>
+                        <maximum-size width="64" height="72"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3092272"/>
+                      <font name="Microsoft YaHei UI" size="36" style="1"/>
+                      <foreground color="-16777216"/>
+                      <hideActionText value="false"/>
+                      <text value="9"/>
+                    </properties>
+                  </component>
+                  <component id="b318" class="javax.swing.JButton" binding="a4Button" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="64" height="72"/>
+                        <preferred-size width="64" height="72"/>
+                        <maximum-size width="64" height="72"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3092272"/>
+                      <font name="Microsoft YaHei UI" size="36" style="1"/>
+                      <foreground color="-16777216"/>
+                      <hideActionText value="false"/>
+                      <text value="4"/>
+                    </properties>
+                  </component>
+                  <component id="2173a" class="javax.swing.JButton" binding="a5Button" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="64" height="72"/>
+                        <preferred-size width="64" height="72"/>
+                        <maximum-size width="64" height="72"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3092272"/>
+                      <font name="Microsoft YaHei UI" size="36" style="1"/>
+                      <foreground color="-16777216"/>
+                      <hideActionText value="false"/>
+                      <text value="5"/>
+                    </properties>
+                  </component>
+                  <component id="6b6c8" class="javax.swing.JButton" binding="a6Button" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="64" height="72"/>
+                        <preferred-size width="64" height="72"/>
+                        <maximum-size width="64" height="72"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3092272"/>
+                      <font name="Microsoft YaHei UI" size="36" style="1"/>
+                      <foreground color="-16777216"/>
+                      <hideActionText value="false"/>
+                      <text value="6"/>
+                    </properties>
+                  </component>
+                  <component id="710ee" class="javax.swing.JButton" binding="a1Button" default-binding="true">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="64" height="72"/>
+                        <preferred-size width="64" height="72"/>
+                        <maximum-size width="64" height="72"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3092272"/>
+                      <font name="Microsoft YaHei UI" size="36" style="1"/>
+                      <foreground color="-16777216"/>
+                      <hideActionText value="false"/>
+                      <text value="1"/>
+                    </properties>
+                  </component>
+                  <component id="2a1f2" class="javax.swing.JButton" binding="a2Button" default-binding="true">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="64" height="72"/>
+                        <preferred-size width="64" height="72"/>
+                        <maximum-size width="64" height="72"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3092272"/>
+                      <font name="Microsoft YaHei UI" size="36" style="1"/>
+                      <foreground color="-16777216"/>
+                      <hideActionText value="false"/>
+                      <text value="2"/>
+                    </properties>
+                  </component>
+                  <component id="84168" class="javax.swing.JButton" binding="a3Button" default-binding="true">
+                    <constraints>
+                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="64" height="72"/>
+                        <preferred-size width="64" height="72"/>
+                        <maximum-size width="64" height="72"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3092272"/>
+                      <font name="Microsoft YaHei UI" size="36" style="1"/>
+                      <foreground color="-16777216"/>
+                      <hideActionText value="false"/>
+                      <text value="3"/>
+                    </properties>
+                  </component>
+                  <component id="9819f" class="javax.swing.JButton" binding="a0Button" default-binding="true">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="64" height="72"/>
+                        <preferred-size width="64" height="72"/>
+                        <maximum-size width="64" height="72"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3092272"/>
+                      <font name="Microsoft YaHei UI" size="36" style="1"/>
+                      <foreground color="-16777216"/>
+                      <hideActionText value="false"/>
+                      <text value="0"/>
+                    </properties>
+                  </component>
+                  <component id="fb64b" class="javax.swing.JButton" binding="cleanButton">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="64" height="72"/>
+                        <preferred-size width="64" height="72"/>
+                        <maximum-size width="64" height="72"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-5592406"/>
+                      <font name="Microsoft YaHei UI" size="36" style="1"/>
+                      <foreground color="-16777216"/>
+                      <hideActionText value="false"/>
+                      <text value="C"/>
+                    </properties>
+                  </component>
+                  <component id="c5bc" class="javax.swing.JButton" binding="delButton">
+                    <constraints>
+                      <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="64" height="72"/>
+                        <preferred-size width="64" height="72"/>
+                        <maximum-size width="64" height="72"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-5592406"/>
+                      <font name="Microsoft YaHei UI" size="36" style="1"/>
+                      <foreground color="-16777216"/>
+                      <hideActionText value="false"/>
+                      <text value="D"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <hspacer id="21eba">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="16" height="-1"/>
+            <preferred-size width="16" height="-1"/>
+            <maximum-size width="16" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="8b6d5">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="16" height="-1"/>
+            <preferred-size width="16" height="-1"/>
+            <maximum-size width="16" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="deffe">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="16"/>
+            <preferred-size width="-1" height="16"/>
+            <maximum-size width="-1" height="16"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="f5d11">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="16"/>
+            <preferred-size width="-1" height="16"/>
+            <maximum-size width="-1" height="16"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <grid id="2e241" binding="tablePane" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-789517"/>
+          <enabled value="false"/>
+          <foreground color="-789517"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <hspacer id="35837">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
