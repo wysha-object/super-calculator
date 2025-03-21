@@ -1,3 +1,4 @@
 Manifest-Version: 1.0
-Main-Class: main.Main
+Main-Class: cn.com.wysha.main.Main
+Class-Path: dom4j-2.1.4.jar
 
